@@ -1,0 +1,64 @@
+// Place all the styles related to the Games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+}
+
+li {
+  background-color: #3498DC;
+  color: white;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  box-shadow: 1px 1px 1px rgba($color: #000000, $alpha: 0.5);
+}
+
+h1 {
+  margin-left: 40px;
+}
+
+a {
+  margin-left: 40px;
+}
+
+.submitbtn {
+  background-color: #337AB7;
+  color: white;
+  border-radius: 0px 5px 5px 0px;
+  border: none;
+  width: 100px;
+  &:hover {
+    background-color: rgb(8, 113, 161);
+    cursor: pointer;
+  }
+}
+
+input {
+  width: 500px;
+  padding: 0 10px;
+  font-size: 20px;
+}
+
+form {
+  display: flex;
+  height: 50px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+p {
+  margin-left: 40px;
+  margin-top: 40px;
+}

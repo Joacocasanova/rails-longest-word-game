@@ -1,0 +1,9 @@
+<h1><strong>Result</strong></h1>
+
+<p><%= sanitize @result%></p>
+
+<p><strong>Game Score = <%=@game_score%></strong></p>
+<p><strong>Total Score = <%=cookies[:score] %></strong></p>
+<%= link_to "Start Playing Again", new_path %>
+
+<%= link_to "Continue Playing", continue_path %>
